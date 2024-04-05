@@ -17,12 +17,8 @@ body {
     margin: auto;
 }
 
-.header .container {
+.social .container{
     justify-content: space-between;
-}
-
-.titulo{
-    color: #32D9CD;
 }
 
 .navbar{
@@ -33,4 +29,66 @@ body {
     justify-content: space-between;
     color: #E3B062;
     align-items: center;
+}
+.header .container {
+    justify-content: space-between;
+}
+
+.titulo{
+    color: #32D9CD;
+}
+
+.banner{
+    /* topo, direita, baixo, esquerda (horário) */
+    padding: 40px, 20px, 80px, 10px;
+    color:#ffffff;
+    height: 600px;
+    background-image: url("./imagens/bg-jelly-fish-para_outras_pags.png");
+}
+.banner .container{
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.banner .container p{
+    font-size: 36px;
+    width: 25%;
+}
+
+.banner .container p span{
+    font-weight: bold;
+}
+
+.social{
+    background-color: #ffffff;
+    padding: 40px 0;
+}
+
+.card{
+    width: 150px;
+    text-align: center;
+}
+
+.card img{
+    width: 100px;
+}
+
+.card h4{
+    font-size: 24px;
+}
+
+.footer { 
+    height: 100px;
+    background-color: aqua;
+}
+
+.footer .container{
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.foot .container p{
+    font-weight: bold;
 }
